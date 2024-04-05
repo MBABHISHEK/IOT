@@ -2,31 +2,71 @@
 
 This README provides an overview of the practical sessions conducted as part of the course. Each week includes a list of programs and the corresponding hours allocated.
 
-## Week 1: Microcontroller Experiments using Arduino or MSP430 (2 Hours)
-1. Temperature sensor
-2. Humidity sensor
-3. Flame sensor
-4. Big sound/small sound sensor
+## 1: Microcontroller Experiments using Arduino or MSP430 
+a.Temperature Based Sensor. 
+b.FIRE SENSOR. 
+c.HEART BEAT SENSOR. 
 
-## Week 2: SOC Experiments using Raspberry PI or Ordroid Xu4 (2 Hours)
-1. Touch sensor
-2. Tracking sensor
-3. Tap sensor
+## 2.Microcontroller Experiments using Arduino or MSP430: 
+a. Humidity sensor 
+b. Big sound/small sound sensor
 
-## Week 3: SOC Experiments using Raspberry PI or Ordroid Xu4 (2 Hours)
-1. Mercury tilt switch
-2. Laser emitter
-3. Ball switch
+## 3.Microcontroller Experiments using Arduino or MSP430: 
+a. Touch sensor 
+b. Tracking sensor 
+c. Tap sensor 
 
-## Week 4: SOC Experiments using Raspberry PI or Ordroid Xu4 (2 Hours)
-1. Button
-2. IR emitter
+## 4.Microcontroller Experiments using Arduino or MSP430: 
+Control and communication Experiments 
+a. Mercury tilt switch 
+b. Laser emitter 
+c. Ball switch 
 
-## Week 5: SOC Experiments using Raspberry PI or Ordroid Xu4 (2 Hours)
-1. Shock sensor
-2. Rotary encoder
+## 5.Microcontroller Experiments using Arduino or MSP430: 
+a. Button 
+b. IR emitter 
+c. Shock sensor 
+d. Rotary encoder 
 
-## How to Use
+## 6: Microcontroller Experiments using Arduino or MSP430: 
+Display and I/O interfacing 
+ a. LED flash light 
+ b.7-segmented display 
+ c. Joystick 
+ d. RGB LED
+
+## 7:Microcontroller Experiments using Arduino or MSP430: 
+ a. SMD RGB LED 
+ b. 7-color LED 
+ c. Two color LED 
+ d. IR receiver 
+ 
+ 
+ ## 8:SOC Experiments using Raspberry PI or Ordroid Xu4: 2 
+ a. Temperature sensor 
+ b. Humidity sensor 
+ c. Flame sensor 
+ d. Big sound/small sound sensor
+
+ ## 9:SOC Experiments using Raspberry PI or Ordroid Xu4: 
+ a. Touch sensor 
+ b. Tracking sensor 
+ c. Tap sensor 
+
+ ## 10:SOC Experiments using Raspberry PI or Ordroid Xu4: 
+Control and communication Experiments 
+a. Mercury tilt switch 
+b. Laser emitter 
+c. Ball switch 
+
+## 11:SOC Experiments using Raspberry PI or Ordroid Xu4: 
+ a. Button 
+ b. IR emitter 
+
+ ## 12.SOC Experiments using Raspberry PI or Ordroid Xu4: 
+a. Shock sensor 
+b. Rotary encoder
+ 
 - Clone this repository to your local machine.
 - Navigate to the respective week's folder to access the programs.
 - Follow the instructions provided in the individual program files for setup and execution.
