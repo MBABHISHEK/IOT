@@ -1,0 +1,22 @@
+const int tiltSwitchPin = 2; // Digital pin connected to tilt switch
+const int ledPin = 13;       // Digital pin connected to LED
+
+void setup() {
+  pinMode(tiltSwitchPin, INPUT);
+  pinMode(ledPin, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  int tiltState = digitalRead(tiltSwitchPin);
+  
+  if (tiltState == HIGH) {
+    Serial.println("titt");
+    digitalWrite(ledPin, HIGH);
+    delay(3000);// Turn on LED
+  } else {
+    Serial.println("no titt");
+    digitalWrite(ledPin, LOW); 
+    delay(3000);// Turn off LED
+  }
+}
