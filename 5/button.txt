@@ -1,0 +1,22 @@
+const int buttonPin = 2; // Digital pin connected to button
+const int ledPin = 13;   // Digital pin connected to LED
+
+void setup() {
+  pinMode(buttonPin, INPUT);
+  pinMode(ledPin, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  int buttonState = digitalRead(buttonPin);
+  
+  if (buttonState == HIGH) {
+    digitalWrite(ledPin, HIGH);
+    Serial.println("button clicked");
+    // Turn on LED
+  } else {
+    digitalWrite(ledPin, LOW);
+     Serial.println("button not clicked");// Turn off LED
+  }
+  delay(500);
+}
