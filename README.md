@@ -4,6 +4,7 @@
 
 ## 1: Microcontroller Experiments using Arduino or MSP430 
 a.Temperature Based Sensor. 
+see the simulation here ##https://wokwi.com/projects/398949911203906561
 b.FIRE SENSOR. 
 c.HEART BEAT SENSOR. 
 
